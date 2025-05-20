@@ -1,7 +1,7 @@
 "use client"; // Must be first line
 
 import React, { useState } from "react";
-import Header from "./Header/page";
+
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ const Counter = () => {
 
   return (
     <div>
-<Header/>
+
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-4xl font-bold mb-4">Tasbeeh Counter</h1>
       <div className="bg-white shadow-md rounded-lg p-6 w-80 text-center">
